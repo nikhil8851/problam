@@ -1,11 +1,11 @@
 def choose_file_for_read():
-    filenam = open('C:/Users/PC/AppData/Local/Programs/Microsoft VS Cod/.vscode/work/file/list_of_list.txt', 'r')
-    gkmk = filenam.readlines()
+    filename = open('C:/Users/PC/AppData/Local/Programs/Microsoft VS Cod/.vscode/work/file/.txt', 'r')
+    myfile = filename.readlines()
 
     list_box  = []
     print('/n')
     i = 1
-    for r in gkmk:
+    for r in myfile:
         print(i, r.strip())
         # append data with strip method to remov /n
         list_box.append(r.strip())
